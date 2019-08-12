@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		33EAA892230028E900992602 /* Reizinho da Estrada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reizinho da Estrada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EAA895230028E900992602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33EAA897230028E900992602 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		33EAA897230028E900992602 /* GameScene.sks */ = {isa = PBXFileReference; explicitFileType = image.jpeg; path = GameScene.sks; sourceTree = "<group>"; };
 		33EAA899230028E900992602 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		33EAA89B230028E900992602 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		33EAA89D230028E900992602 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
