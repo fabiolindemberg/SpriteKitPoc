@@ -38,13 +38,18 @@ class GameScene: SKScene {
         
         player = SKSpriteNode(imageNamed: "\(playerImageName)1")
         player?.size = CGSize(width: widthValue, height: heigthValue)
-        player?.position = CGPoint(x: xValue, y: yValue)
+        player?.anchorPoint = CGPoint(x: 0, y: 0)
+        //player?.position = CGPoint(x: xValue, y: yValue)
         player?.run(repeatAction)
-        self.addChild(player!)
+        self.scene?.addChild(player!)
+        
+        let scene = SKScene(size: self.bounds.size)
+        //self.addChild(player!)
     }
     
     override func didMove(to view: SKView) {
-        setupBackground()
+        //setupBackground()
+        self.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     }
     
     func touchDown(atPoint pos : CGPoint) {
